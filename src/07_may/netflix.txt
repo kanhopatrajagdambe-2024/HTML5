@@ -1,0 +1,107 @@
+
+    
+    CSS Colors
+    1. Color Name
+           
+            {
+              color: red;
+            }
+    
+    2. Shade Name
+       
+            {
+              color: lightgreen;
+            }
+    
+    3. Hexadecimal code
+    
+            {
+             color: #f00  (or) #ff0000;
+            }
+    
+    4. rgb()
+        - It is a method with Red, Green & Blue values
+        - Every value can range from 0 to 255.
+       
+        Syntax:
+            rgb(redValue, greenValue, blueValue);
+            rgb(255,0,0) => Red
+    
+        Ex:
+         {
+           color: rgb(255, 0, 0);
+         }
+    
+    5. rgba()
+        - It is a method with red, green, blue & alpha value.
+        - Alpha is used to set transparency.
+        - Alpha can be from 0 to 1.
+        - "0" is complete transparent.
+    Syntax:
+         rgba(red, green, blue, alpha)
+         rgba(255,0,0,0.5)
+    
+    
+    6. hsl()
+        - It is a method with hue, saturation and lightness.
+        - Hue is a value from 0 to 360 deg [angle].
+    
+                0 to 120 deg          Red
+                121 to 240 deg    Green
+                241 to 360 deg    Blue
+    
+        - Saturation is a value from 0 to 100%. It is used to control gray shade in color.
+    
+                0% is full gray
+                100% removes complete gray
+    
+        - Lightness is a value from 0 to 100%. It is the increase the brightness of color.
+    
+    Syntax:
+          hsl(hue, sat, light)
+          hsl(10deg, 50%, 50%)
+    Ex:
+        {
+          color : hsl(10deg, 100%, 50%);
+        }
+    
+    7. hsla()
+        - It is a method with hue, saturation, lightness and alpha.
+        - Alpha sets transparency from 0 to 1.
+    
+    Syntax:
+         hsla(hue, sat, light, alpha);
+         hsla(10deg, 100%, 50%, 0.6);
+    
+    8. Linear gradient
+        - Gradient is a set of multiple colors.
+        - Linear is an orientation horizontally and vertically in a sequence.
+        - Gradient colors can be applied only as background-image.
+    
+    Syntax:
+        {
+          background-image: linear-gradient(orientation, color1, color2, color3..);
+        }
+    
+        - Orientation can be towards top right, top left, bottom right, bottom left, right, left,
+           top, bottom and any angle.
+        - Color value can be name, shade name, hexadecimal, rgb, rgba, hsl, hsla.
+        - Every color can be set with % from 0 to 100.
+    
+    Ex:
+      {
+       background-image: linear-gradient(to top right, red 50%, yellow, green);
+      }                                (90deg, red, green 50%);
+    
+    9. Radial Gradient
+        - It is similar to linear.
+        - It sets color from center.
+        - Radial refers to circle.
+    Syntax:
+        {
+         background-image: radial-gradient( red, green, yellow);
+        }
+    
+    
+    Ex: Netflix
+    
